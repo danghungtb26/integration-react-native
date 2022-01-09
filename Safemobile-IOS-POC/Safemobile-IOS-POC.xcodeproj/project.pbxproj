@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9124135ADDCBE05D5BBE8C /* Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905542F28E87B0FFE4970F9C /* Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework */; };
+		8DF84CA9FF314EF721DF238D /* Pods_Safemobile_IOS_POCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044AAE29A4CB0A52233AAB19 /* Pods_Safemobile_IOS_POCTests.framework */; };
+		98E0734C1257DFE3C125081D /* Pods_Safemobile_IOS_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E019111987136A26DDE372 /* Pods_Safemobile_IOS_POC.framework */; };
+		A83BBB58278ACCDF00A0B776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB57278ACCDF00A0B776 /* AppDelegate.m */; };
+		A83BBB5B278ACCDF00A0B776 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB5A278ACCDF00A0B776 /* SceneDelegate.m */; };
+		A83BBB5E278ACCDF00A0B776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB5D278ACCDF00A0B776 /* ViewController.m */; };
+		A83BBB61278ACCDF00A0B776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83BBB5F278ACCDF00A0B776 /* Main.storyboard */; };
+		A83BBB63278ACCE100A0B776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83BBB62278ACCE100A0B776 /* Assets.xcassets */; };
+		A83BBB66278ACCE100A0B776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83BBB64278ACCE100A0B776 /* LaunchScreen.storyboard */; };
+		A83BBB69278ACCE100A0B776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB68278ACCE100A0B776 /* main.m */; };
+		A83BBB73278ACCE100A0B776 /* Safemobile_IOS_POCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB72278ACCE100A0B776 /* Safemobile_IOS_POCTests.m */; };
+		A83BBB7D278ACCE100A0B776 /* Safemobile_IOS_POCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB7C278ACCE100A0B776 /* Safemobile_IOS_POCUITests.m */; };
+		A83BBB7F278ACCE100A0B776 /* Safemobile_IOS_POCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BBB7E278ACCE100A0B776 /* Safemobile_IOS_POCUITestsLaunchTests.m */; };
+		A83BBB8D278ACE6000A0B776 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A83BBB8B278ACE6000A0B776 /* main.jsbundle */; };
+		A83BBB8E278ACE6000A0B776 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A83BBB8C278ACE6000A0B776 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83BBB6F278ACCE100A0B776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83BBB4B278ACCDF00A0B776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83BBB52278ACCDF00A0B776;
+			remoteInfo = "Safemobile-IOS-POC";
+		};
+		A83BBB79278ACCE100A0B776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83BBB4B278ACCDF00A0B776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83BBB52278ACCDF00A0B776;
+			remoteInfo = "Safemobile-IOS-POC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044AAE29A4CB0A52233AAB19 /* Pods_Safemobile_IOS_POCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safemobile_IOS_POCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F317CD3DB17C28EA66C32 /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A30D0355450BA87579587A0 /* Pods-Safemobile-IOS-POCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POCTests.release.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POCTests/Pods-Safemobile-IOS-POCTests.release.xcconfig"; sourceTree = "<group>"; };
+		8377D33759659D87C7642590 /* Pods-Safemobile-IOS-POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POC.release.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POC/Pods-Safemobile-IOS-POC.release.xcconfig"; sourceTree = "<group>"; };
+		905542F28E87B0FFE4970F9C /* Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BBB53278ACCDF00A0B776 /* Safemobile-IOS-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safemobile-IOS-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BBB56278ACCDF00A0B776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A83BBB57278ACCDF00A0B776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A83BBB59278ACCDF00A0B776 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A83BBB5A278ACCDF00A0B776 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A83BBB5C278ACCDF00A0B776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A83BBB5D278ACCDF00A0B776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A83BBB60278ACCDF00A0B776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A83BBB62278ACCE100A0B776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83BBB65278ACCE100A0B776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A83BBB67278ACCE100A0B776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83BBB68278ACCE100A0B776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A83BBB6E278ACCE100A0B776 /* Safemobile-IOS-POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safemobile-IOS-POCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BBB72278ACCE100A0B776 /* Safemobile_IOS_POCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Safemobile_IOS_POCTests.m; sourceTree = "<group>"; };
+		A83BBB78278ACCE100A0B776 /* Safemobile-IOS-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safemobile-IOS-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BBB7C278ACCE100A0B776 /* Safemobile_IOS_POCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Safemobile_IOS_POCUITests.m; sourceTree = "<group>"; };
+		A83BBB7E278ACCE100A0B776 /* Safemobile_IOS_POCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Safemobile_IOS_POCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A83BBB8B278ACE6000A0B776 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		A83BBB8C278ACE6000A0B776 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		B816910DA6B09EF1FCAD11B5 /* Pods-Safemobile-IOS-POCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POCTests.debug.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POCTests/Pods-Safemobile-IOS-POCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0F4BA7130B50D3B5F19B21 /* Pods-Safemobile-IOS-POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POC.debug.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POC/Pods-Safemobile-IOS-POC.debug.xcconfig"; sourceTree = "<group>"; };
+		F589307ED3EFCFB433C951BB /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.release.xcconfig"; path = "Target Support Files/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E019111987136A26DDE372 /* Pods_Safemobile_IOS_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safemobile_IOS_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83BBB50278ACCDF00A0B776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E0734C1257DFE3C125081D /* Pods_Safemobile_IOS_POC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB6B278ACCE100A0B776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF84CA9FF314EF721DF238D /* Pods_Safemobile_IOS_POCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB75278ACCE100A0B776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9124135ADDCBE05D5BBE8C /* Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69685CB7936F43D0CD11CD58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E019111987136A26DDE372 /* Pods_Safemobile_IOS_POC.framework */,
+				905542F28E87B0FFE4970F9C /* Pods_Safemobile_IOS_POC_Safemobile_IOS_POCUITests.framework */,
+				044AAE29A4CB0A52233AAB19 /* Pods_Safemobile_IOS_POCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AB9A1D4A74D866A69AE0334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC0F4BA7130B50D3B5F19B21 /* Pods-Safemobile-IOS-POC.debug.xcconfig */,
+				8377D33759659D87C7642590 /* Pods-Safemobile-IOS-POC.release.xcconfig */,
+				092F317CD3DB17C28EA66C32 /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.debug.xcconfig */,
+				F589307ED3EFCFB433C951BB /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.release.xcconfig */,
+				B816910DA6B09EF1FCAD11B5 /* Pods-Safemobile-IOS-POCTests.debug.xcconfig */,
+				7A30D0355450BA87579587A0 /* Pods-Safemobile-IOS-POCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A83BBB4A278ACCDF00A0B776 = {
+			isa = PBXGroup;
+			children = (
+				A83BBB55278ACCDF00A0B776 /* Safemobile-IOS-POC */,
+				A83BBB71278ACCE100A0B776 /* Safemobile-IOS-POCTests */,
+				A83BBB7B278ACCE100A0B776 /* Safemobile-IOS-POCUITests */,
+				A83BBB54278ACCDF00A0B776 /* Products */,
+				9AB9A1D4A74D866A69AE0334 /* Pods */,
+				69685CB7936F43D0CD11CD58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A83BBB54278ACCDF00A0B776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83BBB53278ACCDF00A0B776 /* Safemobile-IOS-POC.app */,
+				A83BBB6E278ACCE100A0B776 /* Safemobile-IOS-POCTests.xctest */,
+				A83BBB78278ACCE100A0B776 /* Safemobile-IOS-POCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83BBB55278ACCDF00A0B776 /* Safemobile-IOS-POC */ = {
+			isa = PBXGroup;
+			children = (
+				A83BBB8C278ACE6000A0B776 /* assets */,
+				A83BBB8B278ACE6000A0B776 /* main.jsbundle */,
+				A83BBB56278ACCDF00A0B776 /* AppDelegate.h */,
+				A83BBB57278ACCDF00A0B776 /* AppDelegate.m */,
+				A83BBB59278ACCDF00A0B776 /* SceneDelegate.h */,
+				A83BBB5A278ACCDF00A0B776 /* SceneDelegate.m */,
+				A83BBB5C278ACCDF00A0B776 /* ViewController.h */,
+				A83BBB5D278ACCDF00A0B776 /* ViewController.m */,
+				A83BBB5F278ACCDF00A0B776 /* Main.storyboard */,
+				A83BBB62278ACCE100A0B776 /* Assets.xcassets */,
+				A83BBB64278ACCE100A0B776 /* LaunchScreen.storyboard */,
+				A83BBB67278ACCE100A0B776 /* Info.plist */,
+				A83BBB68278ACCE100A0B776 /* main.m */,
+			);
+			path = "Safemobile-IOS-POC";
+			sourceTree = "<group>";
+		};
+		A83BBB71278ACCE100A0B776 /* Safemobile-IOS-POCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83BBB72278ACCE100A0B776 /* Safemobile_IOS_POCTests.m */,
+			);
+			path = "Safemobile-IOS-POCTests";
+			sourceTree = "<group>";
+		};
+		A83BBB7B278ACCE100A0B776 /* Safemobile-IOS-POCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A83BBB7C278ACCE100A0B776 /* Safemobile_IOS_POCUITests.m */,
+				A83BBB7E278ACCE100A0B776 /* Safemobile_IOS_POCUITestsLaunchTests.m */,
+			);
+			path = "Safemobile-IOS-POCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83BBB52278ACCDF00A0B776 /* Safemobile-IOS-POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BBB82278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POC" */;
+			buildPhases = (
+				CE4682E145C78DEB8AAF4088 /* [CP] Check Pods Manifest.lock */,
+				A83BBB4F278ACCDF00A0B776 /* Sources */,
+				A83BBB50278ACCDF00A0B776 /* Frameworks */,
+				A83BBB51278ACCDF00A0B776 /* Resources */,
+				10F228250C10F0C6E6E951F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safemobile-IOS-POC";
+			productName = "Safemobile-IOS-POC";
+			productReference = A83BBB53278ACCDF00A0B776 /* Safemobile-IOS-POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83BBB6D278ACCE100A0B776 /* Safemobile-IOS-POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BBB85278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POCTests" */;
+			buildPhases = (
+				2E9C639E878F49423DEF6286 /* [CP] Check Pods Manifest.lock */,
+				A83BBB6A278ACCE100A0B776 /* Sources */,
+				A83BBB6B278ACCE100A0B776 /* Frameworks */,
+				A83BBB6C278ACCE100A0B776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83BBB70278ACCE100A0B776 /* PBXTargetDependency */,
+			);
+			name = "Safemobile-IOS-POCTests";
+			productName = "Safemobile-IOS-POCTests";
+			productReference = A83BBB6E278ACCE100A0B776 /* Safemobile-IOS-POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83BBB77278ACCE100A0B776 /* Safemobile-IOS-POCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BBB88278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POCUITests" */;
+			buildPhases = (
+				2C3A2CE4B0400703D5BCF954 /* [CP] Check Pods Manifest.lock */,
+				A83BBB74278ACCE100A0B776 /* Sources */,
+				A83BBB75278ACCE100A0B776 /* Frameworks */,
+				A83BBB76278ACCE100A0B776 /* Resources */,
+				E43F8CC3CB221189437ABA9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83BBB7A278ACCE100A0B776 /* PBXTargetDependency */,
+			);
+			name = "Safemobile-IOS-POCUITests";
+			productName = "Safemobile-IOS-POCUITests";
+			productReference = A83BBB78278ACCE100A0B776 /* Safemobile-IOS-POCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83BBB4B278ACCDF00A0B776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A83BBB52278ACCDF00A0B776 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A83BBB6D278ACCE100A0B776 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A83BBB52278ACCDF00A0B776;
+					};
+					A83BBB77278ACCE100A0B776 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A83BBB52278ACCDF00A0B776;
+					};
+				};
+			};
+			buildConfigurationList = A83BBB4E278ACCDF00A0B776 /* Build configuration list for PBXProject "Safemobile-IOS-POC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83BBB4A278ACCDF00A0B776;
+			productRefGroup = A83BBB54278ACCDF00A0B776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83BBB52278ACCDF00A0B776 /* Safemobile-IOS-POC */,
+				A83BBB6D278ACCE100A0B776 /* Safemobile-IOS-POCTests */,
+				A83BBB77278ACCE100A0B776 /* Safemobile-IOS-POCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83BBB51278ACCDF00A0B776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BBB8E278ACE6000A0B776 /* assets in Resources */,
+				A83BBB66278ACCE100A0B776 /* LaunchScreen.storyboard in Resources */,
+				A83BBB63278ACCE100A0B776 /* Assets.xcassets in Resources */,
+				A83BBB61278ACCDF00A0B776 /* Main.storyboard in Resources */,
+				A83BBB8D278ACE6000A0B776 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB6C278ACCE100A0B776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB76278ACCE100A0B776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F228250C10F0C6E6E951F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC/Pods-Safemobile-IOS-POC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC/Pods-Safemobile-IOS-POC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC/Pods-Safemobile-IOS-POC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3A2CE4B0400703D5BCF954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E9C639E878F49423DEF6286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safemobile-IOS-POCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4682E145C78DEB8AAF4088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safemobile-IOS-POC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43F8CC3CB221189437ABA9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests/Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83BBB4F278ACCDF00A0B776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BBB5E278ACCDF00A0B776 /* ViewController.m in Sources */,
+				A83BBB58278ACCDF00A0B776 /* AppDelegate.m in Sources */,
+				A83BBB69278ACCE100A0B776 /* main.m in Sources */,
+				A83BBB5B278ACCDF00A0B776 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB6A278ACCE100A0B776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BBB73278ACCE100A0B776 /* Safemobile_IOS_POCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BBB74278ACCE100A0B776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BBB7F278ACCE100A0B776 /* Safemobile_IOS_POCUITestsLaunchTests.m in Sources */,
+				A83BBB7D278ACCE100A0B776 /* Safemobile_IOS_POCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83BBB70278ACCE100A0B776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83BBB52278ACCDF00A0B776 /* Safemobile-IOS-POC */;
+			targetProxy = A83BBB6F278ACCE100A0B776 /* PBXContainerItemProxy */;
+		};
+		A83BBB7A278ACCE100A0B776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83BBB52278ACCDF00A0B776 /* Safemobile-IOS-POC */;
+			targetProxy = A83BBB79278ACCE100A0B776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A83BBB5F278ACCDF00A0B776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83BBB60278ACCDF00A0B776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A83BBB64278ACCE100A0B776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83BBB65278ACCE100A0B776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A83BBB80278ACCE100A0B776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A83BBB81278ACCE100A0B776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83BBB83278ACCE100A0B776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0F4BA7130B50D3B5F19B21 /* Pods-Safemobile-IOS-POC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safemobile-IOS-POC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83BBB84278ACCE100A0B776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377D33759659D87C7642590 /* Pods-Safemobile-IOS-POC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safemobile-IOS-POC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A83BBB86278ACCE100A0B776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B816910DA6B09EF1FCAD11B5 /* Pods-Safemobile-IOS-POCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safemobile-IOS-POC.app/Safemobile-IOS-POC";
+			};
+			name = Debug;
+		};
+		A83BBB87278ACCE100A0B776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A30D0355450BA87579587A0 /* Pods-Safemobile-IOS-POCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safemobile-IOS-POC.app/Safemobile-IOS-POC";
+			};
+			name = Release;
+		};
+		A83BBB89278ACCE100A0B776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092F317CD3DB17C28EA66C32 /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safemobile-IOS-POC";
+			};
+			name = Debug;
+		};
+		A83BBB8A278ACCE100A0B776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F589307ED3EFCFB433C951BB /* Pods-Safemobile-IOS-POC-Safemobile-IOS-POCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BNJQH3HVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.Safemobile-IOS-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safemobile-IOS-POC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83BBB4E278ACCDF00A0B776 /* Build configuration list for PBXProject "Safemobile-IOS-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BBB80278ACCE100A0B776 /* Debug */,
+				A83BBB81278ACCE100A0B776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83BBB82278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BBB83278ACCE100A0B776 /* Debug */,
+				A83BBB84278ACCE100A0B776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83BBB85278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BBB86278ACCE100A0B776 /* Debug */,
+				A83BBB87278ACCE100A0B776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83BBB88278ACCE100A0B776 /* Build configuration list for PBXNativeTarget "Safemobile-IOS-POCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BBB89278ACCE100A0B776 /* Debug */,
+				A83BBB8A278ACCE100A0B776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83BBB4B278ACCDF00A0B776 /* Project object */;
+}

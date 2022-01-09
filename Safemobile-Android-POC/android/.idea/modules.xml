@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Safemobile-Android-POC.iml" filepath="$PROJECT_DIR$/.idea/modules/Safemobile-Android-POC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Safemobile-Android-POC.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Safemobile-Android-POC.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/358100874/Safemobile-Android-POC.react-native-clipboard_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/358100874/Safemobile-Android-POC.react-native-clipboard_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/919682658/Safemobile-Android-POC.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/919682658/Safemobile-Android-POC.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-622074712/Safemobile-Android-POC.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-622074712/Safemobile-Android-POC.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1651397927/Safemobile-Android-POC.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/1651397927/Safemobile-Android-POC.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-323835095/Safemobile-Android-POC.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-323835095/Safemobile-Android-POC.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/296116027/Safemobile-Android-POC.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/296116027/Safemobile-Android-POC.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1389858888/Safemobile-Android-POC.react-native-mmkv.iml" filepath="$PROJECT_DIR$/.idea/modules/1389858888/Safemobile-Android-POC.react-native-mmkv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1541231124/Safemobile-Android-POC.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1541231124/Safemobile-Android-POC.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-136070041/Safemobile-Android-POC.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-136070041/Safemobile-Android-POC.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1034166957/Safemobile-Android-POC.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1034166957/Safemobile-Android-POC.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1316512430/Safemobile-Android-POC.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1316512430/Safemobile-Android-POC.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1695947754/Safemobile-Android-POC.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1695947754/Safemobile-Android-POC.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/867166978/Safemobile-Android-POC.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/867166978/Safemobile-Android-POC.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1009723065/Safemobile-Android-POC.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1009723065/Safemobile-Android-POC.react-native-svg.iml" />
+    </modules>
+  </component>
+</project>
